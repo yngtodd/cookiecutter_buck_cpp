@@ -1,0 +1,15 @@
+load('//:subdir_glob.bzl', 'subdir_glob')
+
+cxx_binary(
+  name = '{{ cookiecutter.Repo }}',
+  header_namespace = '{{ ccokiecutter.Repo }}',
+  headers = subdir_glob([
+    ('{{ cookiecutter.Repo }}/include', '**/*.hpp'),
+  ]),
+  srcs = glob([
+    '{{ cookiecutter.Repo }}/src/**/*.cpp',
+  ]),
+  deps = [
+    '//mathutils:mathutils',
+  ],
+)
