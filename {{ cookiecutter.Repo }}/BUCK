@@ -2,7 +2,7 @@ load('//:subdir_glob.bzl', 'subdir_glob')
 
 cxx_binary(
   name = '{{ cookiecutter.Repo }}',
-  header_namespace = '{{ ccokiecutter.Repo }}',
+  header_namespace = '{{ cookiecutter.Repo }}',
   headers = subdir_glob([
     ('{{ cookiecutter.Repo }}/include', '**/*.hpp'),
   ]),

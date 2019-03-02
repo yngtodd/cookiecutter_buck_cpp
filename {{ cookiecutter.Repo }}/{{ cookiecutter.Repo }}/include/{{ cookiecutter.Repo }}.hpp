@@ -3,7 +3,6 @@
 
 namespace {{cookiecutter.Repo|lower}} {
 
-
 }
 
 #endif 	// {{cookiecutter.Repo|upper}}_H
