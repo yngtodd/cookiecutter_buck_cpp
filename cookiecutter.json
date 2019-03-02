@@ -1,7 +1,8 @@
 {
-    "Repo": "cpp_library",
+    "Owner": "Todd Young",
+    "Repo": "metalcpp",
     "Brief_description": "What's this C++ library for?",
-    "Library_name": "cpplib",
+    "Library_name": "metalcpp",
     "Year": 2019,
     "license": ["GNU General Public License v3", "MIT license", "Apache Software License 2.0"]
 }
