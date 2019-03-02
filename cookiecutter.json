@@ -3,5 +3,5 @@
     "Brief_description": "What's this C++ library for?",
     "Library_name": "cpplib",
     "Year": 2019,
-    "License": ["GNU General Public License v3", "MIT license", "Apache Software License 2.0"]
+    "license": ["GNU General Public License v3", "MIT license", "Apache Software License 2.0"]
 }
