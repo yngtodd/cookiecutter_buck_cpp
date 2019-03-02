@@ -37,7 +37,7 @@ You can build it from your favorite IDE or just from the command line.
 
 Test that your library runs well with Buck:
 
-    $ buck install --run <your_library_name> 
+    $ buck run :<your_library_name> 
 
 You can run the Google Test suite with.
 
